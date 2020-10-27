@@ -1,8 +1,8 @@
-# docs-book-csb
+# docs-book-csb-aws
 
-This project can create and publish the documentation for [Cloud Service Broker for VMware Tanzu](http://docs.pivotal.io/cloud-service-broker/) as a web application.
+This project can create and publish the documentation for [Tanzu Cloud Service Broker for AWS](https://network.pivotal.io/products/cloud-service-broker-aws/) as a web application.
 
-The content repo associated with this book is [pivotal-cf/docs-cloud-service-broker](https://github.com/pivotal-cf/docs-cloud-service-broker).
+The content repo associated with this book is [pivotal-cf/docs-csb-aws](https://github.com/pivotal-cf/docs-csb-aws).
 
 In this topic:
 
@@ -36,18 +36,18 @@ For example: `r302 %r{/cloud-service-broker/(?![\d-]+)(.*)}, "/cloud-service-bro
 
 All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
 
-Cloud Service Broker has the following book branches:
+Cloud Service Broker for AWS has the following book branches:
 
 | Branch name | Use for… |
 |-------------| -------|
-| master      | "edge" branch for v0.x, publishes to http://docs.pivotal.io/cloud-service-broker/
+| main      | "edge" branch for v0.x, publishes to https://docs-pcf-staging.cfapps.io/csb-aws/1-n/index.html
 
 ## Running Locally
 Clone the following repositories:
 * [docs-layout-repo](https://github.com/pivotal-cf/docs-layout-repo)
 * [docs-cloud-service-broker](https://github.com/pivotal-cf/docs-cloud-service-broker)
 
-From the home directory of the docs-book-csb repository, run:
+From the home directory of the docs-book-csb-aws repository, run:
 ```
 bundle install
 bundle exec bookbinder bind local

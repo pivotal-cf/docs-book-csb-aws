@@ -17,24 +17,23 @@ sections:
 - repository:
     name: pivotal-cf/docs-partials
     ref: master
-  directory: cloud-service-broker/partials
+  directory: csb-aws/partials
   no_docs: true
 
 - repository:
-    name: pivotal-cf/docs-cloud-service-broker
-    ref: 'master'
-  directory: cloud-service-broker/1-n
-  subnav_template: cloud-service-broker_subnav_1-n.erb
+    name: pivotal-cf/docs-csb-aws
+    ref: 'main'
+  directory: csb-aws/1-n
+  subnav_template: csb-aws_subnav_1-n.erb
   product_info:
     use_local_header: true
     latest_stable_version: 1.0
-    changelog_href: http://docs.pivotal.io/cloud-service-broker/1-n/release-notes.html/
+    changelog_href: http://docs.pivotal.io/csb-aws/1-n/release-notes.html/
     local_header_img: /images/cloud_rings.png
-    local_header_title: Cloud Service Broker
-    search_placeholder: Search Cloud Service Broker
-    url_prefix: cloud-service-broker/1-n
+    local_header_title: Tanzu Cloud Service Broker for AWS
+    search_placeholder: Search CSB for AWS
+    url_prefix: csb-aws/1-n
     local_product_version: 1.1
     local_header_links: []
     local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/cloud-service-broker/1-0
-        display_name: v1.0
+      -
