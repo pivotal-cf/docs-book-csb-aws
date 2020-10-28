@@ -2,7 +2,6 @@
 book_repo: docs-book-csb
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: 'edge'
-
 feedback_enabled: true
 
 broken_link_exclusions: iefix|arrowhead
@@ -24,16 +23,15 @@ sections:
     name: pivotal-cf/docs-csb-aws
     ref: 'main'
   directory: csb-aws/1-n
-  subnav_template: csb-aws_subnav_1-n.erb
+  subnav_template: csb_aws_subnav_1-n.erb
   product_info:
     use_local_header: true
     latest_stable_version: 1.0
     changelog_href: http://docs.pivotal.io/csb-aws/1-n/release-notes.html/
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Cloud Service Broker for AWS
-    search_placeholder: Search CSB for AWS
+    search_placeholder: Search CSB for AWS 1.0
     url_prefix: csb-aws/1-n
-    local_product_version: 1.1
+    local_product_version: 1.0
     local_header_links: []
-    local_header_version_list:
-      -
+    local_header_version_list: []
