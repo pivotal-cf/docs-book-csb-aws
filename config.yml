@@ -1,5 +1,5 @@
 ---
-book_repo: docs-book-csb
+book_repo: docs-book-csb-aws
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: 'master'
 feedback_enabled: true
