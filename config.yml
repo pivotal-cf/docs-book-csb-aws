@@ -21,7 +21,7 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-csb-aws
-    ref: '1-0'
+    ref: '1.0'
   directory: csb-aws/1-0
   subnav_template: csb_aws_subnav_1-0.erb
   product_info:
