@@ -40,7 +40,8 @@ Cloud Service Broker for AWS has the following book branches:
 
 | Branch name | Use for… |
 |-------------| -------|
-| main      | "edge" branch for v0.x, publishes to https://docs-pcf-staging.cfapps.io/csb-aws/1-n/index.html
+| main      | "edge" branch for v0.x, publishes to https://docs-pcf-staging.cfapps.io/csb-aws/1-n/index.html |
+| 1.0       | v1.0.x |
 
 ## Running Locally
 Clone the following repositories:
