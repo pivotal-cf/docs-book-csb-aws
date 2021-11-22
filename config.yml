@@ -26,7 +26,7 @@ sections:
   subnav_template: csb_aws_subnav_1-0.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.0
+    latest_stable_version: 1.1
     changelog_href: http://docs.pivotal.io/csb-aws/1-0/release-notes.html/
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Cloud Service Broker for AWS
