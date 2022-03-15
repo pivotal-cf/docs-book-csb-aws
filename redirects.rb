@@ -5,7 +5,7 @@ r301 %r{.*}, 'https://docs.vmware.com$&', :if => Proc.new { |rack_env|
 
 # Redirect from docs.pivotal.io/csb-aws/1-2 to docs.vmware.com build service docs
 
-r301  %r{/csb-aws/1-2/index.html}, "https://docs.vmware.com/en/Cloud-Service-Broker-for-AWS/1.2/cloud-service-broker-aws/GUID-index.html"
-r301  %r{/csb-aws/1-2/}, "https://docs.vmware.com/en/Cloud-Service-Broker-for-AWS/1.2/cloud-service-broker-aws/GUID-index.html"
-r301  %r{/csb-aws/1-2}, "https://docs.vmware.com/en/Cloud-Service-Broker-for-AWS/1.2/cloud-service-broker-aws/GUID-index.html"
-r301  %r{/csb-aws/1-2/(.*)}, "https://docs.vmware.com/en/Cloud-Service-Broker-for-AWS/1.2/cloud-service-broker-aws/GUID-$1"
+r301  %r{/csb-aws/1-2/index.html}, "https://docs.vmware.com/en/Tanzu-Cloud-Service-Broker-for-AWS/1.2/csb-aws/GUID-index.html"
+r301  %r{/csb-aws/1-2/}, "https://docs.vmware.com/en/Tanzu-Cloud-Service-Broker-for-AWS/1.2/csb-aws/GUID-index.html"
+r301  %r{/csb-aws/1-2}, "https://docs.vmware.com/en/Tanzu-Cloud-Service-Broker-for-AWS/1.2/csb-aws/GUID-index.html"
+r301  %r{/csb-aws/1-2/(.*)}, "https://docs.vmware.com/en/Tanzu-Cloud-Service-Broker-for-AWS/1.2/csb-aws/GUID-$1"
